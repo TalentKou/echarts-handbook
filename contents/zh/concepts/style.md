@@ -23,7 +23,7 @@ var chart = echarts.init(dom, 'dark');
 
 其他的主题，没有内置在 ECharts 中，需要自己加载。这些主题可以在 [主题编辑器](${mainSitePath}theme-builder.html) 里访问到。也可以使用这个主题编辑器，自己编辑主题。下载下来的主题可以这样使用：
 
-如果主题保存为 JSON 文件，则需要自行加载和注册，例如：
+如果主题保存为 JSON 文件（注意不是包含版本号的那个JSON文件），则需要自行加载和注册，例如：
 
 ```js
 // 假设主题名称是 "vintage"
